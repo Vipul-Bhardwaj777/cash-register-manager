@@ -8,7 +8,7 @@ const showTable = document.querySelector("#table");
 const notesArr = [2000, 500, 100, 20, 10, 5, 1];
 
 checkBtn.addEventListener("click", function clickHandler() {
-   
+
     if (billAmt.value > 0) {
         if (billAmt.value <= cashGiven.value) {
             const change = cashGiven.value - billAmt.value;
