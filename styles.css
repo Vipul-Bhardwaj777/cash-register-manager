@@ -1,111 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    padding:0;
-    margin:0;
-    font-family:"Montserrat", sans-serif;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
     background-color: hsl(206, 65%, 83%);
-    
+
 }
 
 
 
-.main{
+.main {
     color: white;
     border: 2px solid black;
-    border-radius:10px;
-    width:50vw;
+    border-radius: 10px;
+    width: 50vw;
     display: flex;
     flex-direction: column;
-    padding:1em;
-    max-width:600px;
-    margin:2vh auto;
+    padding: 1em;
+    max-width: 600px;
+    margin: 2vh auto;
     background-color: #5b21b6;
-    box-shadow: 0 1em 1em  rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.4);
 }
 
-.main h1{
+.main h1 {
     text-align: center;
 }
 
-.main p{
-   text-align: center;
+.main p {
+    text-align: center;
 }
 
-#bill-amt{
-    height:5vh;
+#bill-amt {
+    height: 5vh;
     border-radius: 10px;
-    border:1.5px solid;
+    border: 1.5px solid;
 }
 
-#bill-amt:hover{
+#bill-amt:hover {
     cursor: pointer;
 }
 
-#cash-given:hover{
+#cash-given:hover {
     cursor: pointer;
 }
 
 
-#cash-given{
+#cash-given {
     border-radius: 10px;
-    height:5vh;
-    border:1.5px solid;
-   
+    height: 5vh;
+    border: 1.5px solid;
+
 }
 
-#check-btn{
-    margin:1em auto;
+#check-btn {
+    margin: 1em auto;
     padding: .5em;
-    width:5vw;
+    width: 5vw;
     border-radius: 10px;
-    border:1.5px solid; 
+    border: 1.5px solid;
 }
 
-#check-btn:hover{
+#check-btn:hover {
     cursor: pointer;
-    background-color:grey ;
+    background-color: grey;
 }
 
-label{
-    padding:1em;
-    max-width:600px;
+label {
+    padding: 1em;
+    max-width: 600px;
     margin: auto;
 }
 
-table{
+table {
     padding: 1em;
-    display:none;
+    display: none;
     color: black;
     border-radius: 5px;
-    height: 25vh; 
+    height: 25vh;
     border-collapse: collapse;
     margin: auto;
 }
 
 
-th{
+th {
     border: 1.5px solid black;
     padding: .5em 1em;
-    text-align:center;
+    text-align: center;
     background-color: #059669;
 }
 
-td{
+td {
     border: 1.5px solid black;
     padding: .5em 1em;
-    text-align:center;
+    text-align: center;
     background-color: white;
     font-size: large;
     font-weight: bold;
-    
+
 }
 
-.notes-tr{
+.notes-tr {
     background-color: aquamarine;
 }
 
-#error-msg{
+#error-msg {
     font-weight: bold;
-    font-si
+
 }
