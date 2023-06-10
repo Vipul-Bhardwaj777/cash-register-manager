@@ -7,7 +7,7 @@ const showTable = document.querySelector("#table");
 
 const notesArr = [2000, 500, 100, 20, 10, 5, 1];
 
-checkBtn.addEventListener("click", function clickHandler() {
+checkBtn.addEventListener("click", () => {
 
     if (billAmt.value > 0) {
         if (billAmt.value <= cashGiven.value) {
