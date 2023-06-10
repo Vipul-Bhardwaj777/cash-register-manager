@@ -12,8 +12,6 @@ checkBtn.addEventListener("click", function clickHandler() {
     if (billAmt.value > 0) {
         if (billAmt.value <= cashGiven.value) {
             const change = cashGiven.value - billAmt.value;
-            console.log(billAmt.value + "<=" + cashGiven.value);
-            console.log(billAmt.value <= cashGiven.value);
             returnNotes(change);
             showTable.style.display = "block";
             error.style.display = "none";
