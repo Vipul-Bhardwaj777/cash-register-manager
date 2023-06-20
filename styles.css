@@ -138,13 +138,38 @@ td {
 }
 
 
-
-footer ul{
-    padding-inline-start: 0px;
-    max-width: 600px;
+footer {
+    padding: 2rem 1rem;
+    color: white;
     text-align: center;
-    margin: 3em auto;
-    
-       
+    padding-inline-start: 0px;
+}
+
+.icons {
+    margin:.5em 1em;
+    font-size: small;
+    color:white;
+    transition:all 0.3s ;
+     
+}
+
+.icons i{
+    transition:all 0.3s linear;
+}
+.icons i:hover{
+    transform:scale(1.2);
    
+}
+
+.fa-github{
+    color:black;
+    
+}
+
+.fa-twitter{
+    color:rgb(29 161 242);
+}
+
+.fa-linkedin{
+    color:#0077b5;
 }
